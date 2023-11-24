@@ -34,7 +34,7 @@ object Form1: TForm1
     StyledSettings = [Family, Size, FontColor]
     Position.X = 16.000000000000000000
     Position.Y = 135.000000000000000000
-    Size.Width = 113.000000000000000000
+    Size.Width = 217.000000000000000000
     Size.Height = 57.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 2
@@ -56,16 +56,5 @@ object Form1: TForm1
     OnItemClick = tasklistItemClick
     Viewport.Width = 213.000000000000000000
     Viewport.Height = 205.000000000000000000
-  end
-  object rembtn: TButton
-    StyledSettings = [Family, Size, FontColor]
-    Position.X = 128.000000000000000000
-    Position.Y = 135.000000000000000000
-    Size.Width = 105.000000000000000000
-    Size.Height = 57.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 5
-    Text = 'REMOVE'
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
   end
 end

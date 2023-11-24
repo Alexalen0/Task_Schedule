@@ -20,7 +20,6 @@ __published:	// IDE-managed Components
 	TEdit *taskedit;
 	TButton *addbtn;
 	TListBox *tasklist;
-	TButton *rembtn;
 	void __fastcall addbtnClick(TObject *Sender);
 	void __fastcall tasklistItemClick(TCustomListBox * const Sender, TListBoxItem * const Item);
 
